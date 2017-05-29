@@ -1,0 +1,143 @@
+@charset "utf-8";
+/* CSS Document */
+html, body, ul, ol, div, h1, h2, h3, h4, p,li {margin: 0;padding: 0;border: 0 none;cursor:default;}
+a{cursor:pointer;outline: none;}
+a:hover{
+	text-decoration: none;
+}
+html, body{
+	height: auto;
+	min-width: 1000px;
+}
+body{ font-family: "Microsoft YaHei", Helvetica, Arial, sans-serif; padding-top: 45px; background-color: #8869b1; min-width: 1000px;}
+.word{font-size: 14px;color:#fff;}
+.btn{ display: inline-block; font-size: 0; line-height: 0; overflow: hidden;}
+.fl{ float: left;}
+.fr{ float: right;}
+
+/*获奖记录*/
+.giftsLists{ text-align: center;}
+.noGifts{ line-height: 50px;}
+.giftsLists td,.giftsLists th{ border: 1px solid #ccc;}
+.giftsLists th{ background: #ddd; color: #333; line-height: 30px;}
+.giftsLists td{ padding: 5px 10px;}
+.giftsLists td a:hover{ color: #ea0000;}
+#pageContainer{ padding-top: 15px; text-align: center;}
+#pageContainer a, #pageContainer span{ padding: 0 10px;}
+#pageContainer a:hover{ text-decoration: underline;}
+
+
+/*主体*/
+.container{ width: 1000px; height: 100%; margin: 0 auto; position: relative;}
+.moddle_1{height: 645px; background: url(../images/moddle_1.jpg) no-repeat 50% 0;}
+.moddle_1 p{position: absolute;font-size: 16px;color:#ffcaf4;left:0px;top:265px;}
+.moddle_1 a{font-size: 0px;}
+.moddle_1 .cdk{position: absolute;width: 420px;height: 31px;left:130px;bottom:140px;}
+.moddle_1 .cdk a{background: url(../images/moddle_1_CDK.png) no-repeat;width: 141px;height: 31px;}
+.moddle_1 .cdk .queryCDK{background-position: 0 -93px;}
+.moddle_1 .cdk .queryCDK:hover{background-position: 0 -62px;}
+.moddle_1 .cdk .chanegCDK{background-position: 0 -31px;}
+.moddle_1 .cdk .chanegCDK:hover{background-position: 0 0;}
+.moddle_1 .btns{position: absolute;width: 700px;height: 78px;left:0px;bottom:40px;}
+.moddle_1 .btns a{float: left;width: 217px;height: 78px;background: url(../images/moddle_1_btns.png) no-repeat;}
+.moddle_1 .btns .downDNF{background-position: 0 0px;}
+.moddle_1 .btns .downDNF:hover{background-position: 0 -78px;}
+.moddle_1 .btns .downQB{background-position: 0 -156px;}
+.moddle_1 .btns .downQB:hover{background-position: 0 -234px;}
+.moddle_1 .btns .goDNF{background-position: 0 -312px;}
+.moddle_1 .btns .goDNF:hover{background-position: 0 -390px;}
+
+.moddle_2{height: 480px; background: url(../images/moddle_2.jpg) no-repeat 50% 0;}
+.moddle_2 .word{position: absolute;top:100px;left:0px;}
+.moddle_2 .gifts{position: absolute;width: 480px;height: 84px;left:80px;bottom:190px;}
+.moddle_2 .gifts .gift{float: left;width: 124px;height: 84px;margin-right: 54px;position: relative;}
+.moddle_2 .gifts .gift span{position: absolute; width: 42px;height: 42px;top:0px;left:50%;margin-left: -21px;background: url(../images/moddle_2_gifts.png) no-repeat;text-align: center;}
+.moddle_2 .gifts .gift.one span{background-position: 0px 0px;}
+.moddle_2 .gifts .gift.two span{background-position: -42px 0px;}
+.moddle_2 .gifts .gift.three span{background-position: -84px 0px;}
+.moddle_2 .gifts .gift p{font-size: 14px;color:#fff;position: absolute;bottom: 10px;text-align: center;width: 100%;}
+.moddle_2 .fastGet{font-size: 0px; position: absolute;width: 279px;height: 57px;left:183px;bottom:95px;background: url(../images/moddle_2_fastGet.png) no-repeat}
+.moddle_2 .fastGet:hover{background-position: 0px -57px;}
+
+.moddle_3{height: 455px; background: url(../images/moddle_3.jpg) no-repeat 50% 0;}
+.moddle_3 .word{position: absolute;left:0px;top:100px;}
+.moddle_3 .gifts{position: absolute;width: 665px;height: 280px;left:0px;top:140px;}
+.moddle_3 .gifts .gift{position: absolute; width: 153px;height: 84px;top:50px;}
+.moddle_3 .gifts .gift span{position: absolute; width: 42px;height: 42px;top:0px;left:50%;margin-left: -21px;background: url(../images/moddle_3_gifts.png) no-repeat;text-align: center;}
+.moddle_3 .gifts .gift.one{left:150px;}
+.moddle_3 .gifts .gift.two{right:150px;}
+.moddle_3 .gifts .gift.one span{background-position: 0px 0px; }
+.moddle_3 .gifts .gift.two span{background-position: -42px 0px;}
+.moddle_3 .gifts .gift p,.moddle_3 .useQB .gift p,.moddle_4 .getChance .gift p{font-size: 14px;color:#fff;position: absolute;bottom: 10px;text-align: center;width: 100%;}
+.moddle_3 .gifts .fastGet{position: absolute;width: 279px;height: 57px;bottom:50px;left:50%;margin-left:-139px;font-size: 0px;background: url(../images/moddle_2_fastGet.png) no-repeat}
+.moddle_3 .fastGet:hover,.moddle_3 .useQB .fastGet:hover{background-position: 0px -57px;}
+.moddle_3 .useQB{position: absolute;height: 280px;width: 320px;right: 0px;top:140px;}
+.moddle_3 .day{position: absolute;font-size: 18px;color:#fff;width: 100%;text-align: center;top:25px;}
+.moddle_3 .day #day{color:#ffea00;}
+.moddle_3 .useQB .gift{position: absolute;width: 153px;height: 84px;top:70px;left:50%;margin-left: -76px;}
+.moddle_3 .useQB .gift span{position: absolute; width: 42px;height: 42px;top:0px;left:50%;margin-left: -21px;background: url(../images/moddle_3_gifts.png)  no-repeat -84px 0px;text-align: center;}
+.moddle_3 .useQB .fastGet{position: absolute;width: 253px;height: 57px;bottom:50px;left:50%;margin-left:-127px;font-size: 0px;background: url(../images/moddle_3_fastGet.png) no-repeat}
+
+.moddle_4{height: 725px; background: url(../images/moddle_4.jpg) no-repeat 50% 0;}
+.moddle_4 .word{position: absolute;left:0px;top:122px;color:#572d72;}
+.moddle_4 .gifts{position: relative;width: 1000px;height:84px;top:200px;left:0px;}
+.moddle_4 .gifts .gift{float:left;width: 139px;height:84px;margin-right: 4px;position: relative;}
+.moddle_4 .gifts .gift span{position: absolute; width: 43px;height: 43px;top:0px;left:50%;margin-left: -21px;background: url(../images/moddle_4_gifts.png) no-repeat;text-align: center;}
+.moddle_4 .gifts .gift p{font-size: 12px;color:#fff;position: absolute;bottom: 10px;text-align: center;width: 100%;}
+.moddle_4 .gifts .gift.one span{background-position: 0px 0px;}
+.moddle_4 .gifts .gift.two span{background-position: -43px 0px;}
+.moddle_4 .gifts .gift.three span{background-position: -86px 0px;}
+.moddle_4 .gifts .gift.four span{background-position: -129px 0px;}
+.moddle_4 .gifts .gift.five span{background-position: 0px -43px;}
+.moddle_4 .gifts .gift.six span{background-position: -43px -43px;}
+.moddle_4 .gifts .gift.seven span{background-position: -86px -43px;}
+.moddle_4 .chance{position: absolute;font-size: 18px;color:#fff;width: 100%;text-align: center;top:40px;}
+.moddle_4 .chance  #chance{color:#ffea00;}
+.moddle_4 .box{position: absolute;width: 380px;height: 310px;left:54px;top:363px;}
+.moddle_4 .box span{position: absolute;width: 201px;height: 188px;top:20px;left:50%;margin-left: -100px;background: url(../images/moddle_4_box.png) 0 -188px no-repeat;}
+.moddle_4 .box.open span{background-position: 0px 0px;}
+.moddle_4 .openBox{position: absolute;width: 246px;height: 57px;bottom:33px;left:50%;margin-left: -123px;background: url(../images/moddle_4_btns.png) 0 -57px no-repeat;}
+.moddle_4 .openBox:hover{background-position:-246px -57px; }
+.moddle_4 .openBox.disabled{background-position:-492px -57px;cursor: default; }
+.moddle_4 .getChance{position: absolute;width: 380px;height: 310px;right:57px;bottom:52px;}
+.moddle_4 .getChance .gift{position: absolute;width: 153px;height: 84px;top:100px;left:50%;margin-left: -76px;}
+.moddle_4 .getChance .gift span{position: absolute; width: 42px;height: 42px;top:0px;left:50%;margin-left: -21px;background: url(../images/moddle_3_gifts.png)  no-repeat -84px 0px;text-align: center;}
+.moddle_4 .fastGet{position: absolute;width: 246px;height: 57px;bottom:33px;left:50%;margin-left:-123px;font-size: 0px;background: url(../images/moddle_4_btns.png) 0px 0px  no-repeat}
+.moddle_4 .fastGet:hover{background-position:-246px 0px; }
+.moddle_4 .fastGet.disabled{background-position:-492px 0px;cursor: default;}
+
+.moddle_5{height: 860px; background: url(../images/moddle_5.jpg) no-repeat 50% 0;}
+.moddle_5 .tit{position: absolute;left: 0px;top:140px;font-size: 14px;color:#fff;}
+.moddle_5 .QRcode{position: absolute;width: 225px;height: 315px;left:0px;top:189px;}
+.moddle_5 .QRcode span{position: absolute;width: 225px;height: 220px;left:0px;top:0px;background: url(../images/moddle_5_QRcode.png) no-repeat;}
+.moddle_5 .QRcode h3{font-size: 24px;color:#fff;margin-top:228px; }
+.moddle_5 .QRcode p{font-size: 14px;color:#fff;margin-top:5px;text-align: center;}
+.moddle_5 .word_3{color:#ddd8ff;font-size: 14px;position: absolute;left: 16px;bottom:60px;list-style: disc;line-height: 30px;}
+.moddle_5 .giftBox{position: absolute;width: 720px;height: 315px;right: 0px;top:189px;}
+.moddle_5 .giftBox .word_1{width: 344px;height: 80px;position: absolute;left:-5px;top:21px;}
+.moddle_5 .giftBox .word_2{width: 344px;height: 80px;position: absolute;right:0px;top:21px;}
+.moddle_5 .giftBox .word p{font-size: 14px;color:#f7ffa0;text-align: center;width: 100%;}
+.moddle_5 .giftBox .word h2{font-size: 24px;color:#fff;text-align: center;width: 100%;}
+.moddle_5 .gifts .gift{width: 93px;height:91px;margin-right: 4px;position: absolute;}
+.moddle_5 .gifts .gift.one{left:21px;top:98px;}
+.moddle_5 .gifts .gift.two{left:123px;top:98px;}
+.moddle_5 .gifts .gift.three{left:228px;top:98px;}
+.moddle_5 .gifts .gift.four{left:62px;top:204px;}
+.moddle_5 .gifts .gift.five{left:166px;top:204px;}
+.moddle_5 .gifts .gift.six{right:229px;top:98px;}
+.moddle_5 .gifts .gift.seven{right:125px;top:98px;}
+.moddle_5 .gifts .gift.eight{right:19px;top:98px;}
+.moddle_5 .gifts .gift.nine{right:187px;top:204px;}
+.moddle_5 .gifts .gift.ten{right:75px;top:204px;}
+.moddle_5 .gifts .gift span{position: absolute; width: 43px;height: 43px;top:0px;left:50%;margin-left: -21px;background: url(../images/moddle_5_gifts.png) no-repeat;text-align: center;}
+.moddle_5 .gifts .gift.one span{background-position:0px 0px ;}
+.moddle_5 .gifts .gift.two span{background-position:-43px 0px ;}
+.moddle_5 .gifts .gift.three span{background-position:-86px 0px ;}
+.moddle_5 .gifts .gift.four span{background-position:-129px 0px ;}
+.moddle_5 .gifts .gift.five span{background-position:-172px 0px ;}
+.moddle_5 .gifts .gift.six span{background-position:0px -43px ;}
+.moddle_5 .gifts .gift.seven span{background-position:-43px -43px ;}
+.moddle_5 .gifts .gift.eight span{background-position:-86px -43px ;}
+.moddle_5 .gifts .gift.nine span{background-position:-129px -43px ;}
+.moddle_5 .gifts .gift.ten span{background-position:-172px -43px ;}
+.moddle_5 .gifts .gift p{font-size: 12px;color:#fff;text-align: center;width: 100%;display: block;margin-top:45px;}
